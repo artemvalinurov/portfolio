@@ -1,0 +1,42 @@
+*{
+    background-color: bisque;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Oswald", sans-serif;}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Oswald", sans-serif;}
+
+.hobby{
+    font-family: "Madimi One", sans-serif;  
+    justify-content: center;
+}
+
+.stek{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-family: "Madimi One", sans-serif;  
+}
+
+.hobby2{
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+}
+
+.stek2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+}
+
