@@ -1,4 +1,4 @@
-*{
+/* *{
     background-color: bisque;
 }
 
@@ -38,5 +38,20 @@
     align-items: center;
     justify-content: center;
     font-family: "Oswald", sans-serif;
+} */
+
+.cell{
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100%;
 }
 
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+}
